@@ -272,6 +272,10 @@ PrefabInstance:
       propertyPath: m_Offset.x
       value: 0.66070074
       objectReference: {fileID: 0}
+    - target: {fileID: 5037609083781268554, guid: 3bed04a2c0242c74ba45c1c72da848ea, type: 3}
+      propertyPath: shardCount
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 6269898171092828821, guid: 3bed04a2c0242c74ba45c1c72da848ea, type: 3}
       propertyPath: m_Name
       value: Fire Crystal (1)
@@ -321,6 +325,33 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3bed04a2c0242c74ba45c1c72da848ea, type: 3}
+--- !u!1 &1923735159 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2704736331318783150, guid: 2bc9c31d806eadb4e9f7869109e2edc9, type: 3}
+  m_PrefabInstance: {fileID: 6329555703320978991}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1923735163
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1923735159}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d3d7571f904efb34397d55e84f6fad17, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &3656885734411407775
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -447,6 +478,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 847671294317118926, guid: 2bc9c31d806eadb4e9f7869109e2edc9, type: 3}
+      propertyPath: orbitRadius
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 847671294317118926, guid: 2bc9c31d806eadb4e9f7869109e2edc9, type: 3}
+      propertyPath: shotsPerSecond
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 847671294317118926, guid: 2bc9c31d806eadb4e9f7869109e2edc9, type: 3}
+      propertyPath: projectileSpeed
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 847671294317118926, guid: 2bc9c31d806eadb4e9f7869109e2edc9, type: 3}
+      propertyPath: weaponRotationOffset
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 847671294317118926, guid: 2bc9c31d806eadb4e9f7869109e2edc9, type: 3}
+      propertyPath: projectileColliderRadius
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1820864213979823350, guid: 2bc9c31d806eadb4e9f7869109e2edc9, type: 3}
       propertyPath: m_Name
       value: Player
@@ -491,6 +542,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4281366657802413811, guid: 2bc9c31d806eadb4e9f7869109e2edc9, type: 3}
+      propertyPath: runMaxYScale
+      value: 1.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 4281366657802413811, guid: 2bc9c31d806eadb4e9f7869109e2edc9, type: 3}
+      propertyPath: runMinYScale
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4281366657802413811, guid: 2bc9c31d806eadb4e9f7869109e2edc9, type: 3}
+      propertyPath: idleMaxYScale
+      value: 1.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 4281366657802413811, guid: 2bc9c31d806eadb4e9f7869109e2edc9, type: 3}
+      propertyPath: runMaxRotation
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4281366657802413811, guid: 2bc9c31d806eadb4e9f7869109e2edc9, type: 3}
+      propertyPath: runMinRotation
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4281366657802413811, guid: 2bc9c31d806eadb4e9f7869109e2edc9, type: 3}
+      propertyPath: idleMaxRotation
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4281366657802413811, guid: 2bc9c31d806eadb4e9f7869109e2edc9, type: 3}
+      propertyPath: idleMinRotation
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6460891418806012794, guid: 2bc9c31d806eadb4e9f7869109e2edc9, type: 3}
       propertyPath: coinIconSize
       value: 40
@@ -515,6 +594,30 @@ PrefabInstance:
       propertyPath: bottomRightOffset.y
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 6700477104329782662, guid: 2bc9c31d806eadb4e9f7869109e2edc9, type: 3}
+      propertyPath: dashSpeed
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6700477104329782662, guid: 2bc9c31d806eadb4e9f7869109e2edc9, type: 3}
+      propertyPath: moveSpeed
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 6700477104329782662, guid: 2bc9c31d806eadb4e9f7869109e2edc9, type: 3}
+      propertyPath: dashCooldown
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6700477104329782662, guid: 2bc9c31d806eadb4e9f7869109e2edc9, type: 3}
+      propertyPath: dashDuration
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6700477104329782662, guid: 2bc9c31d806eadb4e9f7869109e2edc9, type: 3}
+      propertyPath: afterimageSpacing
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6700477104329782662, guid: 2bc9c31d806eadb4e9f7869109e2edc9, type: 3}
+      propertyPath: afterimageLifetime
+      value: 0.25
+      objectReference: {fileID: 0}
     - target: {fileID: 6928042751620153027, guid: 2bc9c31d806eadb4e9f7869109e2edc9, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -522,7 +625,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2704736331318783150, guid: 2bc9c31d806eadb4e9f7869109e2edc9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1923735163}
   m_SourcePrefab: {fileID: 100100000, guid: 2bc9c31d806eadb4e9f7869109e2edc9, type: 3}
 --- !u!1001 &9114987518514743904
 PrefabInstance:
@@ -539,6 +645,10 @@ PrefabInstance:
     - target: {fileID: 1170219789171664558, guid: 3bed04a2c0242c74ba45c1c72da848ea, type: 3}
       propertyPath: m_Offset.x
       value: 0.66070074
+      objectReference: {fileID: 0}
+    - target: {fileID: 5037609083781268554, guid: 3bed04a2c0242c74ba45c1c72da848ea, type: 3}
+      propertyPath: shardCount
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6269898171092828821, guid: 3bed04a2c0242c74ba45c1c72da848ea, type: 3}
       propertyPath: m_Name
